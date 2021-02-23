@@ -1,5 +1,5 @@
 // Dependencies
-import createReactClass from 'create-react-class';
+import React from 'react';
 import { mixin as detailMixin } from './detail';
 import search from './search';
 import mixin from './mixin';
@@ -17,7 +17,7 @@ function createDetail(config) {
     } else {
         config.mixins = [detailMixin];
     }
-    return createReactClass(config);
+    return React.createClass(config);
 }
 
 export {

@@ -1,5 +1,7 @@
-npm-debug.log
-.history
-src/showcase
-.github
-.vscode
+spec/
+test/
+coverage/
+build.sh
+server.js
+update.sh
+static-server.js

@@ -1,7 +1,5 @@
 // Dependencies
-import PropTypes from 'prop-types';
-
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import builder from 'sagess-core/component/builder';
 import type from 'sagess-core/component/types';
 import uniqueId from 'lodash/utility/uniqueId';

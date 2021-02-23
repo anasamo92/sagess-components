@@ -1,11 +1,9 @@
 // Components
-import createReactClass from 'create-react-class';
+import React from 'react';
 import searchHeaderMixin from './mixin';
 
-export default createReactClass({
-    displayName: 'summary',
+export default React.createClass({
     mixins: [searchHeaderMixin],
-
     render() {
         return this._SearchBarComponent();
     }

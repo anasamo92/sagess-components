@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import React, { PropTypes } from 'react';
 
 const defaultProps = {
     formatter: (data) => data
@@ -9,7 +8,7 @@ const propTypes = {
     formatter: PropTypes.func,
     name: PropTypes.string,
     style: PropTypes.object,
-    value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 //v2 : replace div by span

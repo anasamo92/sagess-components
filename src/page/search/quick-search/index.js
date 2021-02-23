@@ -1,7 +1,5 @@
 // Dependencies
-import PropTypes from 'prop-types';
-
-import React from 'react';
+import React, { PropTypes } from 'react';
 import builder from 'sagess-core/component/builder';
 // Components
 import { component as DefaultSearchBar } from '../../../search/search-bar';

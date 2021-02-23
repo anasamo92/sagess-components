@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import React, {PropTypes} from 'react';
 
 const GRID_SIZE = 12, CELL = 'mdl-cell';
 /**

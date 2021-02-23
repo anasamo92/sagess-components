@@ -1,6 +1,5 @@
 import builder from 'sagess-core/component/builder';
 import React from 'react';
-import createReactClass from 'create-react-class';
 import type from 'sagess-core/component/types';
 import { mixin as Line } from './line'
 import uuid from 'uuid';
@@ -55,7 +54,7 @@ const listMixin = {
     * @returns {*} the lines
     */
     _renderLines() {
-        const { LineComponent = createReactClass(Line), idField, dateField, onLineClick, data, ...otherProps } = this.props;
+        const { LineComponent = React.createClass(Line), idField, dateField, onLineClick, data, ...otherProps } = this.props;
         // LEGACY CODE
         const customLineComponent = otherProps.lineComponent;
         if (customLineComponent) {

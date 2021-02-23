@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import capitalize from 'lodash/string/capitalize';
 import messageStore from 'sagess-core/message/built-in-store';
 import { translate } from 'sagess-core/translation';

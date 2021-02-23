@@ -1,7 +1,5 @@
 // libraires
-import PropTypes from 'prop-types';
-
-import React, { Component } from 'react';
+import React, { PropTypes, Component } from 'react';
 import Translation from '../../../behaviours/translation';
 import formatter from 'sagess-core/definition/formatter/number';
 

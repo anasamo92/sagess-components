@@ -1,6 +1,4 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-import createReactClass from 'create-react-class';
+import React, { PropTypes } from 'react';
 import AutocompleteSelect from '../autocomplete-select/field';
 import AutocompleteSelectMultiple from '../autocomplete-select-multiple/field';
 
@@ -23,7 +21,7 @@ const defaultProps = {
     multiple: false
 }
 
-const AutocompleteReference = createReactClass({
+const AutocompleteReference = React.createClass({
 
     displayName: displayName,
     mixins: [referenceMixin, storeMixin],
@@ -82,14 +80,19 @@ const AutocompleteReference = createReactClass({
 })
 
 
-class AutocompleteReferenceWithProps extends React.Component {
-    static displayName = 'AutocompleteReferenceWrapped';
-    static propTypes = propTypes;
-    static defaultProps = defaultProps;
+const AutocompleteReferenceWithProps = React.createClass({
+
+    displayName: 'AutocompleteReferenceWrapped',
+    propTypes: propTypes,
+
+    getDefaultProps() {
+        return defaultProps;
+    },
+
 
     render() {
         return <AutocompleteReference {...this.props} referenceNames={[this.props.referenceName]} />;
     }
-}
+});
 
 export default AutocompleteReferenceWithProps;

@@ -1,9 +1,6 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import identity from 'lodash/utility/identity';
-import { v4 as uuid } from 'uuid';
-
 import ComponentBaseBehaviour from '../../../behaviours/component-base';
 import MDBehaviour from '../../../behaviours/material';
 import filterProps from '../../../utils/filter-html-attributes';
@@ -20,6 +17,7 @@ const propTypes = {
     placeholder: PropTypes.string,
     //required: PropTypes.bool,
     rows: PropTypes.number,
+    type: PropTypes.string,
     unformatter: PropTypes.func,
     value: PropTypes.oneOfType([
         PropTypes.string,
@@ -29,6 +27,7 @@ const propTypes = {
 };
 
 const defaultProps = {
+    type: 'text',
     formatter: identity,
     unformatter: identity,
     minLength: 0,
@@ -81,22 +80,8 @@ class InputTextarea extends Component {
         const mdlClasses = `mdl-textfield mdl-js-textfield${error ? ' is-invalid' : ''}`;
 
         validInputProps.value = formatter(value) === undefined || formatter(value) === null ? '' : formatter(value);
-        validInputProps.onChange = this._handleInputChange;
-        // To prevent regression
-        if (validInputProps.name) {
-            validInputProps.id = validInputProps.name;
-        }
-
+        validInputProps.onChange = this._handleInputChange
         const inputProps = { ...validInputProps, pattern };
-        // Label and type not allowed on element textarea
-        delete inputProps.label;
-        delete inputProps.type;
-        let errorId = null;
-        if (error) {
-            inputProps['aria-invalid'] = true;
-            errorId = uuid();
-            inputProps['aria-describedby'] = errorId;
-        }
 
         return (
             <div data-error={!!error} data-focus='input-textarea'>
@@ -104,7 +89,7 @@ class InputTextarea extends Component {
                     <textarea className='mdl-textfield__input' ref='htmlInput' {...inputProps} />
                     <label className='mdl-textfield__label' htmlFor={name}>{this.i18n(placeholder)}</label>
                 </div>
-                {error && <div className='label-error' ref='error' id={errorId}>{error}</div>}
+                {error && <div className='label-error' ref='error'>{error}</div>}
             </div>
         );
     }

@@ -1,2 +1,28 @@
-import mixin from '../../mixin/reference-property';
-export default mixin;
+import type from 'sagess-core/component/types';
+
+let referenceMixin = {
+    /** @inheritdoc */
+    getDefaultProps() {
+        return {
+            /**
+             * Size of the label in the grid system.
+             * @type {Number}
+             */
+            reference: {}
+        };
+    },
+
+    /** @inheritdoc */
+    propTypes: {
+        reference: type('object')
+    },
+
+    /**
+     * @returns {object} -
+     */
+    _getReference() {
+        return this.props.reference;
+    }
+};
+
+export default referenceMixin;

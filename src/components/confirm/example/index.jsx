@@ -5,40 +5,34 @@ import confirm from 'sagess-core/application/confirm';
 import Input from 'sagess-components/components/input/text';
 import AutocompleteSelect from 'sagess-components/components/input/autocomplete-select';
 
-class ConfirmExample extends React.Component {
+const ConfirmExample = React.createClass({
     // This code is for the first confirm example
-    firstDataBuilder = () => {
+    firstDataBuilder() {
         return 'Hey there do you want to continue';
-    };
-
-    firstConfirm = () => {
+    },
+    firstConfirm() {
         const self = this;
         const value = self.refs.textName.textValue();
         alert('Welcome to Focus ' + value);
-    };
-
-    firstCancel = () => {
+    },
+    firstCancel() {
         console.log('KO');
-    };
-
-    renderTextValue = () => {
+    },
+    renderTextValue() {
         const self = this;
         return 'So, your name is ' + self.refs.textName.textValue() + ' ?';
-    };
+    },
 
     // This one is for the second confirm example (will contain a component inside the popin)
-    secondDataBuilder = () => {
+    secondDataBuilder() {
         return MyAutocomplete;
-    };
-
-    secondConfirm = (value) => {
+    },
+    secondConfirm(value) {
         console.log(value);
-    };
-
-    secondCancel = () => {
+    },
+    secondCancel() {
         console.log('Save has failed');
-    };
-
+    },
     render() {
         return (
             <div>
@@ -58,7 +52,7 @@ class ConfirmExample extends React.Component {
             </div>
         );
     }
-}
+});
 
 const keyResolver = key => {
     return new Promise((resolve, reject) => {
@@ -91,15 +85,15 @@ const querySearcher = query => {
     });
 }
 
-class MyAutocomplete extends React.Component {
-    state = { isEdit: true };
-
+const MyAutocomplete = React.createClass({
+    getInitialState() {
+        return { isEdit: true };
+    },
     componentDidMount() {
         setTimeout(() => {
             this.setState({ delayedValue: 'test' }, this.forceUpdate);
         }, 3000);
-    }
-
+    },
     render() {
         const { delayedValue, isEdit } = this.state;
         return (
@@ -110,18 +104,17 @@ class MyAutocomplete extends React.Component {
             </div>
         );
     }
-}
+});
 
-class NameText extends React.Component {
-    textValue = () => {
+const NameText = React.createClass({
+    textValue() {
         return this.refs.textName.getValue();
-    };
-
+    },
     render() {
         return (
             <Input name='myInput' onChange={() => console.log('Changing the input')} ref='textName' />
         );
     }
-}
+});
 
 export default ConfirmExample;

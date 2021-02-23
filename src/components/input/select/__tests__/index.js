@@ -1,5 +1,5 @@
 
-import { renderIntoDocument, Simulate } from 'react-dom/test-utils';
+import TestUtils from 'react-addons-test-utils';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -7,6 +7,7 @@ import { init } from 'sagess-core/translation';
 
 import Select from '../';
 
+const { renderIntoDocument, Simulate } = TestUtils;
 import identity from 'lodash/utility/identity';
 import fixture from './fixture';
 //onChangeSpy = jest.fn();
@@ -20,19 +21,19 @@ describe('The select ', () => {
     beforeEach(() => {
         init(i18nConfig);
     });
-    // describe('when called with no props', () => {
-    //     let component;
-    //     beforeEach(
-    //         () => {
-    //             const shallowRenderer = TestUtils.createRenderer();
-    //             shallowRenderer.render(<Select />);
-    //             component = shallowRenderer.getRenderOutput();
-    //         }
-    //     );
-    //     it('should render an empty select', () => {
+    describe('when called with no props', () => {
+        let component;
+        beforeEach(
+            () => {
+                const shallowRenderer = TestUtils.createRenderer();
+                shallowRenderer.render(<Select />);
+                component = shallowRenderer.getRenderOutput();
+            }
+        );
+        it('should render an empty select', () => {
 
-    //     });
-    // });
+        });
+    });
     describe('when called with minimal props', () => {
         let component, domNode;
         const mockValues = fixture.VALUES;

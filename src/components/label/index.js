@@ -1,27 +1,19 @@
 // Dependencies
-import PropTypes from 'prop-types';
-
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 import { translate } from 'sagess-core/translation';
 
-function Label({ name, text, isRequired }) {
+function Label({ name, text }) {
     const content = text || name;
     return (
         <label data-focus='label' htmlFor={name}>
-            {translate(content) + (isRequired ? '\u202f*' : '')}
+            {translate(content)}
         </label>
     );
 }
 
 Label.propTypes = {
     name: PropTypes.string.isRequired,
-    text: PropTypes.string,
-    isRequired: PropTypes.bool
-};
-
-Label.defaultProps = {
-    isRequired: false,
-    text: ''
-};
+    text: PropTypes.string
+}
 
 export default Label;

@@ -1,12 +1,9 @@
 import { translate } from 'sagess-core/translation';
 import React from 'react';
-import createReactClass from 'create-react-class';
 import searchHeaderMixin from './mixin';
 
-export default createReactClass({
-    displayName: 'cartridge',
+export default React.createClass({
     mixins: [searchHeaderMixin],
-
     render() {
         return (
             <div className='cartridge-search' data-focus='cartridge-search'>

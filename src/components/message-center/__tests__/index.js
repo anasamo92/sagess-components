@@ -1,5 +1,5 @@
 
-import TestUtils from 'react-dom/test-utils';
+import TestUtils from 'react-addons-test-utils';
 import { init } from 'sagess-core/translation';
 import React from 'react';
 

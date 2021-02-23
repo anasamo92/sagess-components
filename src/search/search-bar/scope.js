@@ -1,8 +1,6 @@
 import { translate } from 'sagess-core/translation';
 
-import PropTypes from 'prop-types';
-
-import React from 'react';
+import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 
 import builder from 'sagess-core/component/builder';

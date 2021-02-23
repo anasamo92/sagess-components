@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import AutocompleteSelectEdit from './edit';
 import AutocompleteSelectConsult from './consult';
 import translation from 'sagess-core/translation';

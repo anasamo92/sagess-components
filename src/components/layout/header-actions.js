@@ -1,7 +1,5 @@
 // Libs
-import PropTypes from 'prop-types';
-
-import React from 'react';
+import React, { PropTypes } from 'react';
 import isObject from 'lodash/lang/isObject';
 import filterProps from '../../utils/filter-html-attributes';
 // Stores

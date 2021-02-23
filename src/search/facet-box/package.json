@@ -13,5 +13,6 @@
         "panel",
         "filter"
     ],
+    "author": "focus@kleegroup.com",
     "license": "MIT"
 }

@@ -1,10 +1,9 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import React, { PropTypes } from 'react';
 import isString from 'lodash/lang/isString';
 
 import { builtInStore as applicationStore } from 'sagess-core/application';
 
-import { component as ConfirmationModal } from './popin';
+import { component as ConfirmationModal } from '../../application/confirmation-popin';
 import connect from '../../behaviours/store/connect';
 
 

@@ -1,6 +1,5 @@
 //dependencies
-import PropTypes from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { PropTypes, PureComponent } from 'react';
 import MDBehaviour from '../../behaviours/material';
 import Translation from '../../behaviours/translation';
 import filterProps from '../../utils/filter-html-attributes'

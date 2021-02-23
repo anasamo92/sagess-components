@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import MDBehaviour from '../../behaviours/material';
 import Translation from '../../behaviours/translation';
@@ -50,7 +49,7 @@ class Button extends Component {
         hasRipple: false,
         icon: null,
         iconLibrary: 'material',
-        id: undefined,
+        id: '',
         isJs: false,
         isLoading: false,
         label: '',
