@@ -1,5 +1,5 @@
 
-import { component as Header } from 'focus-component/application/header';
+import { component as Header } from 'sagess-components/application/header';
 
 const HeaderExample = React.createClass({
     render() {
