@@ -1,5 +1,5 @@
 {
-    "extends": "sagess",
+    "extends": "focus",
     "globals": {
         "componentHandler": true
     }
