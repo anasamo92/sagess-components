@@ -49,7 +49,7 @@
     {
         "name": "old-layout",
         "version": "1.0.0",
-        "description": "Layout of the focus application",
+        "description": "Layout of the sagess application",
         "keywords": [
             "layout",
             "dumb"
@@ -336,7 +336,7 @@
     {
         "name": "layout",
         "version": "1.0.0",
-        "description": "Layout of the focus application",
+        "description": "Layout of the sagess application",
         "keywords": [
             "layout",
             "dumb"
