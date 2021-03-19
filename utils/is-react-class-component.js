@@ -1,18 +1,25 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 //This function aims to test if a component is a
 
 // is a component a react class.
-export const isReactClassComponent = ComponentToTest => {
- const prototype = ComponentToTest.prototype;
+var isReactClassComponent = exports.isReactClassComponent = function isReactClassComponent(ComponentToTest) {
+  var prototype = ComponentToTest.prototype;
   if (!prototype) {
     return false;
   }
   return typeof prototype.render === 'function';
 };
 
-export const addRefToPropsIfNotPure = (Component, props, ref) => (isReactClassComponent(Component) ? {...props, ref} : props);
+var addRefToPropsIfNotPure = exports.addRefToPropsIfNotPure = function addRefToPropsIfNotPure(Component, props, ref) {
+  return isReactClassComponent(Component) ? Object.assign({}, props, { ref: ref }) : props;
+};
 
-
-export const LIST = 'list';
-export const LINE = 'line';
-export const INPUT = 'input';
-export const DISPLAY = 'display';
+var LIST = exports.LIST = 'list';
+var LINE = exports.LINE = 'line';
+var INPUT = exports.INPUT = 'input';
+var DISPLAY = exports.DISPLAY = 'display';
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0cmluZy1ub3JtYWxpemUuanMiXSwibmFtZXMiOlsiaXNSZWFjdENsYXNzQ29tcG9uZW50IiwicHJvdG90eXBlIiwiQ29tcG9uZW50VG9UZXN0IiwicmVuZGVyIiwiYWRkUmVmVG9Qcm9wc0lmTm90UHVyZSIsIkNvbXBvbmVudCIsInByb3BzIiwicmVmIiwiTElTVCIsIkxJTkUiLCJJTlBVVCIsIkRJU1BMQVkiXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUE7O0FBRUE7QUFDTyxJQUFNQSx3REFBd0IsU0FBeEJBLHFCQUF3QixrQkFBbUI7QUFDdkQsTUFBTUMsWUFBWUMsZ0JBQWdCRCxTQUFsQztBQUNDLE1BQUksQ0FBQ0EsU0FBTCxFQUFnQjtBQUNkLFdBQU8sS0FBUDtBQUNEO0FBQ0QsU0FBTyxPQUFPQSxVQUFVRSxNQUFqQixLQUE0QixVQUFuQztBQUNELENBTk07O0FBUUEsSUFBTUMsMERBQXlCLFNBQXpCQSxzQkFBeUIsQ0FBQ0MsU0FBRCxFQUFZQyxLQUFaLEVBQW1CQyxHQUFuQjtBQUFBLFNBQTRCUCxzQkFBc0JLLFNBQXRCLHNCQUF1Q0MsS0FBdkMsSUFBOENDLFFBQTlDLE1BQXFERCxLQUFqRjtBQUFBLENBQS9COztBQUdBLElBQU1FLHNCQUFPLE1BQWI7QUFDQSxJQUFNQyxzQkFBTyxNQUFiO0FBQ0EsSUFBTUMsd0JBQVEsT0FBZDtBQUNBLElBQU1DLDRCQUFVLFNBQWhCIiwiZmlsZSI6InN0cmluZy1ub3JtYWxpemUuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvL1RoaXMgZnVuY3Rpb24gYWltcyB0byB0ZXN0IGlmIGEgY29tcG9uZW50IGlzIGFcclxuXHJcbi8vIGlzIGEgY29tcG9uZW50IGEgcmVhY3QgY2xhc3MuXHJcbmV4cG9ydCBjb25zdCBpc1JlYWN0Q2xhc3NDb21wb25lbnQgPSBDb21wb25lbnRUb1Rlc3QgPT4ge1xyXG4gY29uc3QgcHJvdG90eXBlID0gQ29tcG9uZW50VG9UZXN0LnByb3RvdHlwZTtcclxuICBpZiAoIXByb3RvdHlwZSkge1xyXG4gICAgcmV0dXJuIGZhbHNlO1xyXG4gIH1cclxuICByZXR1cm4gdHlwZW9mIHByb3RvdHlwZS5yZW5kZXIgPT09ICdmdW5jdGlvbic7XHJcbn07XHJcblxyXG5leHBvcnQgY29uc3QgYWRkUmVmVG9Qcm9wc0lmTm90UHVyZSA9IChDb21wb25lbnQsIHByb3BzLCByZWYpID0+IChpc1JlYWN0Q2xhc3NDb21wb25lbnQoQ29tcG9uZW50KSA/IHsuLi5wcm9wcywgcmVmfSA6IHByb3BzKTtcclxuXHJcblxyXG5leHBvcnQgY29uc3QgTElTVCA9ICdsaXN0JztcclxuZXhwb3J0IGNvbnN0IExJTkUgPSAnbGluZSc7XHJcbmV4cG9ydCBjb25zdCBJTlBVVCA9ICdpbnB1dCc7XHJcbmV4cG9ydCBjb25zdCBESVNQTEFZID0gJ2Rpc3BsYXknO1xyXG4iXX0=

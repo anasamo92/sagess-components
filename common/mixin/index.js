@@ -1,14 +1,48 @@
-import definition from './definition';
-import fieldComponentBehaviour from './field-component-behaviour';
-import fieldGridBehaviour from './field-grid-behaviour';
-import referenceProperty from './reference-property';
-import storeBehaviour from './store-behaviour';
-import builtInComponents from './built-in-components';
-import ownIdentifier from './own-identifier';
+'use strict';
 
-export {
-    definition, fieldComponentBehaviour, fieldGridBehaviour, referenceProperty, storeBehaviour, builtInComponents, ownIdentifier
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.ownIdentifier = exports.builtInComponents = exports.storeBehaviour = exports.referenceProperty = exports.fieldGridBehaviour = exports.fieldComponentBehaviour = exports.definition = undefined;
+
+var _definition = require('./definition');
+
+var _definition2 = _interopRequireDefault(_definition);
+
+var _fieldComponentBehaviour = require('./field-component-behaviour');
+
+var _fieldComponentBehaviour2 = _interopRequireDefault(_fieldComponentBehaviour);
+
+var _fieldGridBehaviour = require('./field-grid-behaviour');
+
+var _fieldGridBehaviour2 = _interopRequireDefault(_fieldGridBehaviour);
+
+var _referenceProperty = require('./reference-property');
+
+var _referenceProperty2 = _interopRequireDefault(_referenceProperty);
+
+var _storeBehaviour = require('./store-behaviour');
+
+var _storeBehaviour2 = _interopRequireDefault(_storeBehaviour);
+
+var _builtInComponents = require('./built-in-components');
+
+var _builtInComponents2 = _interopRequireDefault(_builtInComponents);
+
+var _ownIdentifier = require('./own-identifier');
+
+var _ownIdentifier2 = _interopRequireDefault(_ownIdentifier);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.definition = _definition2.default;
+exports.fieldComponentBehaviour = _fieldComponentBehaviour2.default;
+exports.fieldGridBehaviour = _fieldGridBehaviour2.default;
+exports.referenceProperty = _referenceProperty2.default;
+exports.storeBehaviour = _storeBehaviour2.default;
+exports.builtInComponents = _builtInComponents2.default;
+exports.ownIdentifier = _ownIdentifier2.default;
+exports.default = {
+    definition: _definition2.default, fieldComponentBehaviour: _fieldComponentBehaviour2.default, fieldGridBehaviour: _fieldGridBehaviour2.default, referenceProperty: _referenceProperty2.default, storeBehaviour: _storeBehaviour2.default, builtInComponents: _builtInComponents2.default, ownIdentifier: _ownIdentifier2.default
 };
-export default {
-    definition, fieldComponentBehaviour, fieldGridBehaviour, referenceProperty, storeBehaviour, builtInComponents, ownIdentifier
-}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0cmluZy1ub3JtYWxpemUuanMiXSwibmFtZXMiOlsiZGVmaW5pdGlvbiIsImZpZWxkQ29tcG9uZW50QmVoYXZpb3VyIiwiZmllbGRHcmlkQmVoYXZpb3VyIiwicmVmZXJlbmNlUHJvcGVydHkiLCJzdG9yZUJlaGF2aW91ciIsImJ1aWx0SW5Db21wb25lbnRzIiwib3duSWRlbnRpZmllciJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7Ozs7UUFHSUEsVSxHQUFBQSxvQjtRQUFZQyx1QixHQUFBQSxpQztRQUF5QkMsa0IsR0FBQUEsNEI7UUFBb0JDLGlCLEdBQUFBLDJCO1FBQW1CQyxjLEdBQUFBLHdCO1FBQWdCQyxpQixHQUFBQSwyQjtRQUFtQkMsYSxHQUFBQSx1QjtrQkFFcEc7QUFDWE4sb0NBRFcsRUFDQ0MsMERBREQsRUFDMEJDLGdEQUQxQixFQUM4Q0MsOENBRDlDLEVBQ2lFQyx3Q0FEakUsRUFDaUZDLDhDQURqRixFQUNvR0M7QUFEcEcsQyIsImZpbGUiOiJzdHJpbmctbm9ybWFsaXplLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGRlZmluaXRpb24gZnJvbSAnLi9kZWZpbml0aW9uJztcclxuaW1wb3J0IGZpZWxkQ29tcG9uZW50QmVoYXZpb3VyIGZyb20gJy4vZmllbGQtY29tcG9uZW50LWJlaGF2aW91cic7XHJcbmltcG9ydCBmaWVsZEdyaWRCZWhhdmlvdXIgZnJvbSAnLi9maWVsZC1ncmlkLWJlaGF2aW91cic7XHJcbmltcG9ydCByZWZlcmVuY2VQcm9wZXJ0eSBmcm9tICcuL3JlZmVyZW5jZS1wcm9wZXJ0eSc7XHJcbmltcG9ydCBzdG9yZUJlaGF2aW91ciBmcm9tICcuL3N0b3JlLWJlaGF2aW91cic7XHJcbmltcG9ydCBidWlsdEluQ29tcG9uZW50cyBmcm9tICcuL2J1aWx0LWluLWNvbXBvbmVudHMnO1xyXG5pbXBvcnQgb3duSWRlbnRpZmllciBmcm9tICcuL293bi1pZGVudGlmaWVyJztcclxuXHJcbmV4cG9ydCB7XHJcbiAgICBkZWZpbml0aW9uLCBmaWVsZENvbXBvbmVudEJlaGF2aW91ciwgZmllbGRHcmlkQmVoYXZpb3VyLCByZWZlcmVuY2VQcm9wZXJ0eSwgc3RvcmVCZWhhdmlvdXIsIGJ1aWx0SW5Db21wb25lbnRzLCBvd25JZGVudGlmaWVyXHJcbn07XHJcbmV4cG9ydCBkZWZhdWx0IHtcclxuICAgIGRlZmluaXRpb24sIGZpZWxkQ29tcG9uZW50QmVoYXZpb3VyLCBmaWVsZEdyaWRCZWhhdmlvdXIsIHJlZmVyZW5jZVByb3BlcnR5LCBzdG9yZUJlaGF2aW91ciwgYnVpbHRJbkNvbXBvbmVudHMsIG93bklkZW50aWZpZXJcclxufVxyXG4iXX0=
