@@ -46,7 +46,7 @@ const selectMixin = {
         disabled: types('bool')
     },
     componentWillMount() {
-        console.warn('FocusComponents 0.7.0: this component is deprecated, please use FocusComponents.components.input.Select');
+        console.warn('SagessComponents 0.7.0: this component is deprecated, please use SagessComponents.components.input.Select');
     },
     /** @inheritdoc */
     getInitialState() {

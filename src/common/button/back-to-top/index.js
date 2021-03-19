@@ -38,7 +38,7 @@ const backToTopMixin = {
         };
     },
     componentWillMount() {
-        console.warn('FocusComponents v0.15: the \'ButtonBackToTop\' component from FocusComponents.common is deprecated, please use FocusComponents.components.ButtonBackToTop');
+        console.warn('SagessComponents v0.15: the \'ButtonBackToTop\' component from SagessComponents.common is deprecated, please use SagessComponents.components.ButtonBackToTop');
     },
     /**
     * Component did mount, attach the scroll spy

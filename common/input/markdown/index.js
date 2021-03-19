@@ -9,7 +9,7 @@ const markdownEditorMixin = {
         return { value: this.props.value };
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use focus-components/components/input/rich-text instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use sagess-components/components/input/rich-text instead');
     },
     /** @inherideddoc */
     componentDidMount() {

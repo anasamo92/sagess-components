@@ -6,7 +6,7 @@ import isArray from 'lodash/lang/isArray';
 import isString from 'lodash/lang/isString';
 import isObject from 'lodash/lang/isObject';
 
-// Import from focus-core 
+// Import from focus-core
 // We need to investigate why import {getEntityInformations} from 'focus-core/entity/builder' didn't work, maybe an ES2015 related issue with babel.
 // Maybe because the node modules reads from the builded lib  instead of src.
 import { getEntityInformations } from 'focus-core/definition/entity/builder';

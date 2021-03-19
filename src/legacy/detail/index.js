@@ -42,7 +42,7 @@ const detailMixin = {
         );
     },
     componentWillMount() {
-        console.warn('FocusComponents 0.7.0: this component is deprecated, please use FocusComponents.components.ScrollspyContainer');
+        console.warn('SagessComponents 0.7.0: this component is deprecated, please use SagessComponents.components.ScrollspyContainer');
     },
     /** @inheritedDoc */
     render() {

@@ -24,7 +24,7 @@ const displayTextMixin = {
         style: PropTypes.object
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use focus-components/components/display/text instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use sagess-components/components/display/text instead');
     },
     /**
     * Render the value.

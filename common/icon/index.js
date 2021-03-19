@@ -10,7 +10,7 @@ const iconMixin = {
         };
     },
     componentWillMount() {
-        console.warn('FocusComponents v0.15: the \'Icon\' component from FocusComponents.common is deprecated, please use FocusComponents.components.Icon');
+        console.warn('SagessComponents v0.15: the \'Icon\' component from SagessComponents.common is deprecated, please use SagessComponents.components.Icon');
     },
     propTypes: {
         handleOnClick: PropTypes.func,

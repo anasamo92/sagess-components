@@ -21,7 +21,7 @@ const TopicDisplayer = {
         };
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use focus-components/components/topic-displayer instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use sagess-components/components/topic-displayer instead');
     },
     /**
      * Render the component.

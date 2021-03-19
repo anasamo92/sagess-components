@@ -3,7 +3,7 @@ import React from 'react';
 
 const headerMixin = {
     componenWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use components from focus-components/components/layout folder');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use components from sagess-components/components/layout folder');
     },
     /** @inheriteddoc */
     render() {

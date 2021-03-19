@@ -3,7 +3,7 @@ import React from 'react';
 
 let emptyMixin = {
     componentWillMount() {
-        console.warn('FocusComponents v0.15: the \'Empty\' component from FocusComponents.common is deprecated, please use FocusComponents.components.Empty');
+        console.warn('SagessComponents v0.15: the \'Empty\' component from SagessComponents.common is deprecated, please use SagessComponents.components.Empty');
     },
     render() {
         return (

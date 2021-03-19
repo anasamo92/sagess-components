@@ -11,7 +11,7 @@ let panelMixin = {
         }
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use focus-components/components/panel instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use sagess-components/components/panel instead');
     },
     /**
      * Header of theblock function.

@@ -56,7 +56,7 @@ const inputTextComponent = {
         };
     },
     componentWillMount() {
-        console.warn('FocusComponents 0.7.0: this component is deprecated, please use FocusComponents.components.input.Text');
+        console.warn('SagessComponents 0.7.0: this component is deprecated, please use SagessComponents.components.input.Text');
     },
     /**
     * Update the component.

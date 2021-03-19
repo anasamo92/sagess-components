@@ -14,7 +14,7 @@ const barMixin = {
     * Component will mount
     */
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use components from focus-components/components/layout folder');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use components from sagess-components/components/layout folder');
         applicationStore.addSummaryComponentChangeListener(this._handleComponentChange);
         applicationStore.addBarContentLeftComponentChangeListener(this._handleComponentChange);
         applicationStore.addBarContentRightComponentChangeListener(this._handleComponentChange);

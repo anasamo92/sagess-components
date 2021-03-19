@@ -17,7 +17,7 @@ const labelMixin = {
         text: PropTypes.string
     },
     componentWillMount() {
-        console.warn('FocusComponents v0.15: the \'Label\' component from FocusComponents.common is deprecated, please use FocusComponents.components.Label');
+        console.warn('SagessComponents v0.15: the \'Label\' component from SagessComponents.common is deprecated, please use SagessComponents.components.Label');
     },
     /** @inheritdoc */
     render() {

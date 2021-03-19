@@ -4,7 +4,7 @@ import { lazyload } from 'react-lazyload';
 import Panel from '../../components/panel';
 
 /**
- * Lazy loading component with focus component Panel in placeholder by default.
+ * Lazy loading component with sagess component Panel in placeholder by default.
  * The source code is available here: https://github.com/jasonslyvia/react-lazyload
  * Some demonstrations on this page: https://jasonslyvia.github.io/react-lazyload/examples/#/?_k=dr4z6a
  * 

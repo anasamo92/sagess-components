@@ -45,7 +45,7 @@ const Scrollspy = {
         };
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use focus-components/components/scrollspy-container instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use sagess-components/components/scrollspy-container instead');
     },
     /** @inheritDoc */
     componentDidMount() {

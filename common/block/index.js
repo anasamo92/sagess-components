@@ -35,7 +35,7 @@ const blockMixin = {
         }
     },
     componentWillMount() {
-        console.warn('FocusComponents 0.7.0: this component is deprecated, please use FocusComponents.components.Panel');
+        console.warn('SagessComponents 0.7.0: this component is deprecated, please use SagessComponents.components.Panel');
     },
     /**
     * Render the a block container and the cild content of the block.

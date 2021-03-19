@@ -19,7 +19,7 @@ let messageCenterMixin = {
     },
     /** @inheriteddoc */
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use component from focus-components/components/message-center');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use component from sagess-components/components/message-center');
         messageStore.addPushedMessageListener(this._handlePushMessage);
         messageStore.addClearMessagesListener(this._handleClearMessage);
     },

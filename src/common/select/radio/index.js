@@ -42,7 +42,7 @@ const selectRadioMixin = {
     },
 
     componentWillMount() {
-        console.warn('FocusComponents v0.15: the \'select-radio\' component from FocusComponents.common is deprecated, please use FocusComponents.components.select.SelectRadio');
+        console.warn('SagessComponents v0.15: the \'select-radio\' component from SagessComponents.common is deprecated, please use SagessComponents.components.select.SelectRadio');
     },
 
     /** @inheritdoc */

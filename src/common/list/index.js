@@ -11,7 +11,7 @@ let MemoryListMixin = {
         listComponent: type(['func', 'object'])
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use focus-components/list instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use sagess-components/list instead');
     },
     /** @inheritdoc */
     render() {

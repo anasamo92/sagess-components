@@ -17,7 +17,7 @@ const buttonBackMixin = {
     mixins: [i18nMixin, stylableMixin],
     /** inheritedDoc */
     componentWillMount() {
-        console.warn('FocusComponents v0.15: this component is deprecated, please use FocusComponents.components.Back');
+        console.warn('SagessComponents v0.15: this component is deprecated, please use SagessComponents.components.Back');
     },
     render() {
         return (

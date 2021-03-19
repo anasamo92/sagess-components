@@ -30,7 +30,7 @@ const radioMixin = {
         onChange: types('func')
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use focus-components/components/input/select-radio instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use sagess-components/components/input/select-radio instead');
     },
     /** @inheritdoc */
     componentWillReceiveProps(newProps) {
