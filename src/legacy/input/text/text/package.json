@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Example of input�-text",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +10,6 @@
     "input",
     "text"
   ],
-  "author": "focus@kleegroup.com",
+
   "license": "MIT"
 }

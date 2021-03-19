@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Grid example",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "keywords": [
     "grid",
     "column",
@@ -14,6 +11,6 @@
     "page",
     "flex"
   ],
-  "author": "focus@kleegroup.com",
+
   "license": "MIT"
 }

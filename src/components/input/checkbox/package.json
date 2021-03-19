@@ -3,9 +3,6 @@
   "version": "1.1.0",
   "description": "Input checkbox component. Used to display boolean values, follows the material design specification.",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "mocha __tests__/index.js"
   },
@@ -16,6 +13,6 @@
     "checkbox",
     "material"
   ],
-  "author": "focus@kleegroup.com",
+
   "license": "MIT"
 }

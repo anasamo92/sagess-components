@@ -3,9 +3,6 @@
     "version": "1.0.0",
     "description": "Facet box. Displayed as a panel where the user can select facet values.",
     "main": "index.js",
-    "directories": {
-        "example": "example"
-    },
     "keywords": [
         "material",
         "facet",
@@ -13,6 +10,6 @@
         "panel",
         "filter"
     ],
-    "author": "focus@kleegroup.com",
+
     "license": "MIT"
 }

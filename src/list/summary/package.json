@@ -3,14 +3,11 @@
     "version": "1.0.0",
     "description": "List summary example",
     "main": "index.js",
-    "directories": {
-        "example": "example"
-    },
     "keywords": [
         "material",
         "list",
         "summary"
     ],
-    "author": "focus@kleegroup.com",
+
     "license": "MIT"
 }

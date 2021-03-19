@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Dropdown component.",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +12,6 @@
     "actions",
     "selection"
   ],
-  "author": "focus@kleegroup.com",
+
   "license": "MIT"
 }

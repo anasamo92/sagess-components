@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Table component, please see http://www.getmdl.io/components/index.html#tables-section",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +14,6 @@
     "sort",
     "dumb"
   ],
-  "author": "focus@kleegroup.com",
+
   "license": "MIT"
 }

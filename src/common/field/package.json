@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Example of field use",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +18,6 @@
     "error",
     "label"
   ],
-  "author": "focus@kleegroup.com",
+
   "license": "MIT"
 }

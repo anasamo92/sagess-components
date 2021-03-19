@@ -1,7 +1,7 @@
 {
   "name": "old-layout",
   "version": "1.0.0",
-  "description": "Layout of the focus application",
+  "description": "Layout of the sagess application",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -13,6 +13,6 @@
     "layout",
     "dumb"
   ],
-  "author": "focus@kleegroup.com",
+
   "license": "MIT"
 }
