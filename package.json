@@ -44,7 +44,7 @@
   },
   "babel": {
     "presets": [
-      "focus"
+      "sagess"
     ]
   },
   "keywords": [
