@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 
 import AutocompleteTextEdit from '../edit';
 
-import { init } from 'focus-core/translation';
+import { init } from 'sagess-core/translation';
 
 const i18nConfig = {
     resources: {},

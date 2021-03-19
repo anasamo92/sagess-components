@@ -1,7 +1,7 @@
 // Dependencies
 import React, { PropTypes } from 'react';
-import builder from 'focus-core/component/builder';
-import { translate } from 'focus-core/translation';
+import builder from 'sagess-core/component/builder';
+import { translate } from 'sagess-core/translation';
 import styleBehaviour from '../../mixin/stylable';
 
 /**

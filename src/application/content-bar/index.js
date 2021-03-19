@@ -1,4 +1,4 @@
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import React from 'react';
 
 const headerMixin = {

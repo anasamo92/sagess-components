@@ -1,4 +1,4 @@
-import type from 'focus-core/component/types';
+import type from 'sagess-core/component/types';
 
 /**
  * Mixin used in order to create a popin or a menu.

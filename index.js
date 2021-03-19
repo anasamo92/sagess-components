@@ -1,7 +1,7 @@
 //Generator http://patorjk.com/software/taag/#p=display&h=1&f=Banner4&t=Sagess-COMPONENTS
 // import './style';
-import translation from 'focus-core/translation';
-import history from 'focus-core/history';
+import translation from 'sagess-core/translation';
+import history from 'sagess-core/history';
 
 const infos = require(`${__PACKAGE_JSON_PATH__}/package.json`);
 

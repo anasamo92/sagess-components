@@ -1,8 +1,8 @@
 // Dependencies.
 import React from 'react';
 import ReactDOM from 'react-dom';
-import builder from 'focus-core/component/builder';
-import types from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import types from 'sagess-core/component/types';
 import assign from 'object-assign';
 import mdlBehaviour from '../../../../common/mixin/mdl-behaviour';
 import i18nBehaviour from '../../../../common/i18n/mixin';

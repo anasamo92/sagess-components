@@ -1,4 +1,4 @@
-import { translate } from 'focus-core/translation';
+import { translate } from 'sagess-core/translation';
 import React from 'react';
 import searchHeaderMixin from './mixin';
 

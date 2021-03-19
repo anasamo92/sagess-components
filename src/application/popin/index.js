@@ -1,9 +1,9 @@
 // Dependencies
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import builder from 'focus-core/component/builder';
-import types from 'focus-core/component/types';
-import { ArgumentInvalidException } from 'focus-core/exception';
+import builder from 'sagess-core/component/builder';
+import types from 'sagess-core/component/types';
+import { ArgumentInvalidException } from 'sagess-core/exception';
 
 /**
 * Small overlay component used to listen to scroll and prevent it to leave the Popin component

@@ -1,6 +1,6 @@
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import { translate } from 'focus-core/translation';
+import builder from 'sagess-core/component/builder';
+import { translate } from 'sagess-core/translation';
 import map from 'lodash/collection/map';
 // Components
 import { component as Button } from '../button/action';

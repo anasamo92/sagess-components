@@ -1,6 +1,6 @@
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import type from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import type from 'sagess-core/component/types';
 // Mixins
 import valueBehaviour from './mixin/value-behaviour';
 import validationBehaviour from './mixin/validation-behaviour';

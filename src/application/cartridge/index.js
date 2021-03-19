@@ -1,6 +1,6 @@
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import React from 'react';
-import applicationStore from 'focus-core/application/built-in-store';
+import applicationStore from 'sagess-core/application/built-in-store';
 
 const cartridgeMixin = {
     /** @inheriteddoc */

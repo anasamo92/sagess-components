@@ -1,7 +1,7 @@
 import React from 'react';
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import { component as Scrollspy } from '../../common/scrollspy';
-import type from 'focus-core/component/types';
+import type from 'sagess-core/component/types';
 import stylable from '../../mixin/stylable';
 import { component as DefaultBackToTopComponent } from '../../components/button-back-to-top';
 /**

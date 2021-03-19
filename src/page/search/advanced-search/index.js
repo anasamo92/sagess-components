@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import dispatcher from 'focus-core/dispatcher';
+import builder from 'sagess-core/component/builder';
+import dispatcher from 'sagess-core/dispatcher';
 import camel from 'lodash/string/camelCase';
 import capitalize from 'lodash/string/capitalize';
 import isFunction from 'lodash/lang/isFunction';
@@ -14,12 +14,12 @@ import { component as Results } from '../common/component/results';
 import BackToTopComponent from '../../../components/button-back-to-top';
 import DefaultGroupComponent from './group';
 // Store
-import { advancedSearchStore } from 'focus-core/search/built-in-store';
+import { advancedSearchStore } from 'sagess-core/search/built-in-store';
 // Mixins
 import CartridgeBehaviour from '../../mixin/cartridge-behaviour';
-import type from 'focus-core/component/types';
+import type from 'sagess-core/component/types';
 // Actions
-import actionBuilder from 'focus-core/search/action-builder';
+import actionBuilder from 'sagess-core/search/action-builder';
 
 /**
 * Page mixin of the advanced search.

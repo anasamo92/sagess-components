@@ -1,6 +1,6 @@
 // Dependencies
 import React, { Component, PropTypes } from 'react';
-import { translate } from 'focus-core/translation';
+import { translate } from 'sagess-core/translation';
 
 function Label({ name, text }) {
     const content = text || name;

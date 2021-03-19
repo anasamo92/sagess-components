@@ -1,6 +1,6 @@
 //dependencies
 import React, { Component, PropTypes } from 'react';
-import { translate } from 'focus-core/translation';
+import { translate } from 'sagess-core/translation';
 import ComponentBaseBehaviour from '../../../behaviours/component-base';
 import filterProps from '../../../utils/filter-html-attributes';
 import isUndefined from 'lodash/lang/isUndefined';

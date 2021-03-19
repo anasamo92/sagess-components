@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import applicationStore from 'focus-core/application/built-in-store';
+import applicationStore from 'sagess-core/application/built-in-store';
 import Scroll from '../../behaviours/scroll';
 import connect from '../../behaviours/store/connect';
 

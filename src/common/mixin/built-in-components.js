@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import { changeMode } from 'focus-core/application';
+import { changeMode } from 'sagess-core/application';
 import assign from 'object-assign';
 
 import result from 'lodash/object/result';

@@ -1,6 +1,6 @@
 // Dependencies
 import React, { PropTypes } from 'react';
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 // Components
 import { component as DefaultSearchBar } from '../../../search/search-bar';
 import { component as Results } from '../common/component/results';
@@ -9,9 +9,9 @@ import DefaultGroupComponent from './group';
 import referenceBehaviour from '../../../common/form/mixin/reference-behaviour';
 import storeBehaviour from '../../../common/mixin/store-behaviour';
 // Actions
-import actionBuilder from 'focus-core/search/action-builder';
+import actionBuilder from 'sagess-core/search/action-builder';
 // Stores
-import { quickSearchStore } from 'focus-core/search/built-in-store';
+import { quickSearchStore } from 'sagess-core/search/built-in-store';
 
 /**
 * General search mixin.

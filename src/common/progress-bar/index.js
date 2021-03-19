@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 // Mixins
 import mdlBehaviour from '../mixin/mdl-behaviour';
 

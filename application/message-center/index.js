@@ -1,6 +1,6 @@
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import React from 'react';
-import messageStore from 'focus-core/message/built-in-store';
+import messageStore from 'sagess-core/message/built-in-store';
 import { component as Message } from '../../message';
 import assign from 'object-assign';
 import capitalize from 'lodash/string/capitalize';

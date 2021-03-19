@@ -1,5 +1,5 @@
 import React from 'react';
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 /**
  * Mixin used in order to create a block.
  * @type {Object}

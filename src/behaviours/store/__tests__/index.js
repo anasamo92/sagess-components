@@ -6,8 +6,8 @@ import ReactDOM from 'react-dom';
 import storeConnectBehaviour from '../connect';
 const { renderIntoDocument, Simulate } = TestUtils;
 
-import store from 'focus-core/store';
-import dispatcher from 'focus-core/dispatcher';
+import store from 'sagess-core/store';
+import dispatcher from 'sagess-core/dispatcher';
 const { CoreStore } = store;
 
 

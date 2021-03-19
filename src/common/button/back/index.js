@@ -1,7 +1,7 @@
 import React from 'react';
 // Dependencies
-import builder from 'focus-core/component/builder';
-import historic from 'focus-core/history';
+import builder from 'sagess-core/component/builder';
+import historic from 'sagess-core/history';
 // Mixins
 import i18nMixin from '../../i18n/mixin';
 import stylableMixin from '../../../mixin/stylable';

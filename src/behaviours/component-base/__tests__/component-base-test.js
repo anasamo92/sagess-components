@@ -4,7 +4,7 @@ import React from 'react';
 
 import ComponentBaseBehaviour from '../';
 import ReactDOM from 'react-dom';
-import { init } from 'focus-core/translation';
+import { init } from 'sagess-core/translation';
 
 describe('The component base behaviour', () => {
     let renderedComponent;

@@ -1,6 +1,6 @@
 //Dependencies.
-import builder from 'focus-core/component/builder';
-import types from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import types from 'sagess-core/component/types';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import i18nMixin from '../../i18n/mixin';

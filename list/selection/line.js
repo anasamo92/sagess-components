@@ -1,5 +1,5 @@
 // Dependencies
-import types from 'focus-core/component/types';
+import types from 'sagess-core/component/types';
 import React from 'react';
 import isEqual from 'lodash/lang/isEqual';
 // Components

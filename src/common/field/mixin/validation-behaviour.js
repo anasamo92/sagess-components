@@ -1,5 +1,5 @@
 
-import validate from 'focus-core/definition/validator/validate';
+import validate from 'sagess-core/definition/validator/validate';
 
 import isNull from 'lodash/lang/isNull';
 import isUndefined from 'lodash/lang/isUndefined';

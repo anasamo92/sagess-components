@@ -1,6 +1,6 @@
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import React from 'react';
-import { builtInStore as requestStore } from 'focus-core/network';
+import { builtInStore as requestStore } from 'sagess-core/network';
 import { component as ProgressBar } from '../../common/progress-bar';
 import { component as Icon } from '../../common/icon';
 

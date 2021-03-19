@@ -1,7 +1,7 @@
 import React from 'react';
 // Dependencies
-import builder from 'focus-core/component/builder';
-import type from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import type from 'sagess-core/component/types';
 // Mixins
 import i18nMixin from '../../common/i18n/mixin';
 // Components

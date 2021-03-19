@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import AutocompleteSelectEdit from './edit';
 import AutocompleteSelectConsult from './consult';
-import translation from 'focus-core/translation';
+import translation from 'sagess-core/translation';
 
 class AutocompleteSelectField extends Component {
 

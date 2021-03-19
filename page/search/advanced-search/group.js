@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import Translation from '../../../behaviours/translation';
-import formatter from 'focus-core/definition/formatter/number';
+import formatter from 'sagess-core/definition/formatter/number';
 //web components
 import Button from '../../../components/button';
 

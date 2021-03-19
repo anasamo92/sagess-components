@@ -1,12 +1,12 @@
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import React from 'react';
-import type from 'focus-core/component/types';
+import type from 'sagess-core/component/types';
 import { mixin as Line } from './line'
 import uuid from 'uuid';
 import { mixin as translationMixin } from '../../common/i18n';
 import { mixin as infiniteScrollMixin } from '../mixin/infinite-scroll';
 import referenceMixin from '../../common/mixin/reference-property';
-import { checkIsNotNull } from 'focus-core/util/object';
+import { checkIsNotNull } from 'sagess-core/util/object';
 import Button from '../../components/button';
 //Add a ref to the props if the component is not pure add nothing in the other case.
 import { addRefToPropsIfNotPure, LINE } from '../../utils/is-react-class-component';

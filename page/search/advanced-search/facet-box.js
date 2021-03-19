@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 // Components
 import { component as FacetBox } from '../../../search/facet-box';
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import applicationStore from 'focus-core/application/built-in-store';
+import applicationStore from 'sagess-core/application/built-in-store';
 
 /**
 * HeaderContent component.

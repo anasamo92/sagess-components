@@ -1,5 +1,5 @@
 // Dependencies
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 // Components
 import AppHeaderDefault from './app-header';
 import { component as LoadingBarDefault } from '../loading-bar';

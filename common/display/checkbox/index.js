@@ -1,7 +1,7 @@
 //Dependencies.
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import React from 'react';
-import type from 'focus-core/component/types';
+import type from 'sagess-core/component/types';
 import i18nBehaviour from '../../i18n/mixin';
 
 /**

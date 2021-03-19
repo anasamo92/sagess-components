@@ -1,11 +1,11 @@
 
 import TestUtils from 'react-addons-test-utils';
-import { init } from 'focus-core/translation';
+import { init } from 'sagess-core/translation';
 import React from 'react';
 
 import MessageCenter from '../index';
 import ReactDOM, { findDOMNode, unmountComponentAtNode } from 'react-dom';
-import { addErrorMessage, addWarningMessage, addInformationMessage, addSuccessMessage } from 'focus-core/message';
+import { addErrorMessage, addWarningMessage, addInformationMessage, addSuccessMessage } from 'sagess-core/message';
 
 const { findRenderedDOMComponentWithClass, renderIntoDocument, Simulate } = TestUtils;
 

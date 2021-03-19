@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
-import { translate } from 'focus-core/translation';
-import builder from 'focus-core/component/builder';
+import { translate } from 'sagess-core/translation';
+import builder from 'sagess-core/component/builder';
 
 import mapValues from 'lodash/object/mapValues';
 import omit from 'lodash/object/omit';

@@ -9,7 +9,7 @@ import { component as Field } from '../';
 
 const { renderIntoDocument, findAllInRenderedTree } = TestUtils;
 
-import { init } from 'focus-core/translation';
+import { init } from 'sagess-core/translation';
 
 const i18nConfig = {
     resources: {},

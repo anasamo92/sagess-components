@@ -3,7 +3,7 @@ import TestUtils from 'react-addons-test-utils';
 import React from 'react';
 
 import DefinitionBehaviour from '../';
-import definition from 'focus-core/definition';
+import definition from 'sagess-core/definition';
 
 const DOMAIN = {
     DO_TEXT: {

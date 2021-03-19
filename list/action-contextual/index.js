@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 // Components
 import Button from '../../components/button';
 import SelectAction from '../../components/dropdown';

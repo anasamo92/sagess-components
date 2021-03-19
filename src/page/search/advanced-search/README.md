@@ -179,7 +179,7 @@ import connect from 'sagess-components/behaviours/store/connect';
 
 // web components
 import {component as AdvancedSearch} from 'sagess-components/page/search/advanced-search';
-import {advancedSearchStore} from 'focus-core/search/built-in-store';
+import {advancedSearchStore} from 'sagess-core/search/built-in-store';
 
 //Autres propriétés passées au composant, qui ne changent pas en fonction du scope
 import {configuration} from './configuration';

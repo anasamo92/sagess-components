@@ -11,8 +11,8 @@ module.exports = {
         '<rootDir>/node_modules/fbjs',
         '<rootDir>/node_modules/numeral',
         '<rootDir>/node_modules/i18next-client',
-        '<rootDir>/node_modules/focus-core'
+        '<rootDir>/node_modules/sagess-core'
     ],
     testPathIgnorePatterns: ['/node_modules/', 'fixture.js', '.history', '.localhistory', 'test-focus.jsx'],
-    transformIgnorePatterns: ['/node_modules(?!\/focus-core)/']
+    transformIgnorePatterns: ['/node_modules(?!\/sagess-core)/']
 } 

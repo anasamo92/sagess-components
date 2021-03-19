@@ -1,5 +1,5 @@
-import storeGetter from 'focus-core/reference/built-in-store';
-import builtInActionReferenceLoader from 'focus-core/reference/built-in-action';
+import storeGetter from 'sagess-core/reference/built-in-store';
+import builtInActionReferenceLoader from 'sagess-core/reference/built-in-action';
 import difference from 'lodash/array/difference';
 
 const referenceMixin = {

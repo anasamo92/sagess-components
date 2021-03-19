@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import capitalize from 'lodash/string/capitalize';
-import messageStore from 'focus-core/message/built-in-store';
-import { translate } from 'focus-core/translation';
+import messageStore from 'sagess-core/message/built-in-store';
+import { translate } from 'sagess-core/translation';
 
 const defaultProps = {
     ttlError: 8000,

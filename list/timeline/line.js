@@ -1,7 +1,7 @@
 /**@jsx*/
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import type from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import type from 'sagess-core/component/types';
 import { mixin as translationMixin } from '../../common/i18n';
 import referenceMixin from '../../common/mixin/reference-property';
 import definitionMixin from '../../common/mixin/definition';

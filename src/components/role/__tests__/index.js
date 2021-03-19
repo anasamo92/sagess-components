@@ -3,7 +3,7 @@ import TestUtils from 'react-addons-test-utils';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import user from 'focus-core/user';
+import user from 'sagess-core/user';
 import Role from '../';
 import Input from '../../input/text';
 

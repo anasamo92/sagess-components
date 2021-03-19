@@ -7,7 +7,7 @@ import Input from '../';
 const { renderIntoDocument, Simulate } = TestUtils;
 import identity from 'lodash/utility/identity';
 
-import { init } from 'focus-core/translation';
+import { init } from 'sagess-core/translation';
 
 const i18nConfig = {
     resources: {},

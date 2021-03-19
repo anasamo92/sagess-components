@@ -1,5 +1,5 @@
 import isFunction from 'lodash/lang/isFunction';
-import { setHeader } from 'focus-core/application';
+import { setHeader } from 'sagess-core/application';
 
 const cartridgeBehaviour = {
 

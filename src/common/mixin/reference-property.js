@@ -1,4 +1,4 @@
-import type from 'focus-core/component/types';
+import type from 'sagess-core/component/types';
 
 let referenceMixin = {
     /** @inheritdoc */

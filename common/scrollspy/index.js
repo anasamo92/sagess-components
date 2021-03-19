@@ -1,8 +1,8 @@
 // Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import builder from 'focus-core/component/builder';
-import types from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import types from 'sagess-core/component/types';
 // Mixins
 import Stylabe from '../../mixin/stylable';
 import { scrollTo, scrollPosition } from '../mixin/scroll';

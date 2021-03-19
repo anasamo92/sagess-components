@@ -1,5 +1,5 @@
-import builder from 'focus-core/component/builder';
-import types from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import types from 'sagess-core/component/types';
 import React from 'react';
 import i18nBehaviour from '../../../../common/i18n/mixin';
 import fieldGridBehaviour from '../../../../common/mixin/field-grid-behaviour';

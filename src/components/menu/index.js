@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { navigate } from 'focus-core/history';
+import { navigate } from 'sagess-core/history';
 import Button from '../button';
 
 function MenuItems(props) {

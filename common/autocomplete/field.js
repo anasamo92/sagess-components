@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import types from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import types from 'sagess-core/component/types';
 // Components
 import { component as Autocomplete } from './awesomplete';
 

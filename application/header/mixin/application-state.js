@@ -1,4 +1,4 @@
-import applicationStore from 'focus-core/application/built-in-store';
+import applicationStore from 'sagess-core/application/built-in-store';
 
 let applicationStateMixin = {
     /** @inheriteddoc */

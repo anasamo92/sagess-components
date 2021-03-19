@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { translate } from 'focus-core/translation';
+import { translate } from 'sagess-core/translation';
 
 /**
 * Render the boolean value.

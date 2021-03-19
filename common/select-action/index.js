@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import uuid from 'uuid';
 import 'material-design-lite/material';
 // Dependencies
-import builder from 'focus-core/component/builder';
-import { translate } from 'focus-core/translation';
+import builder from 'sagess-core/component/builder';
+import { translate } from 'sagess-core/translation';
 // Components
 import Button from '../../components/button';
 

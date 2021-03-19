@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 import reduce from 'lodash/collection/reduce';
 import omit from 'lodash/object/omit';
 // Components

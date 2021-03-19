@@ -1,7 +1,7 @@
 // see http://www.getmdl.io/components/index.html#layout-section/grid
 //dependencies
 import React, { Component } from 'react';
-import types from 'focus-core/component/types';
+import types from 'sagess-core/component/types';
 
 /**
  * Column component.

@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
 import Button from '../button';
-import {translate} from 'focus-core/translation';
+import {translate} from 'sagess-core/translation';
 
 function ButtonHelp({blockName}) {
     const {hash, pathname} = window.location;

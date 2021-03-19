@@ -1,11 +1,11 @@
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import user from 'focus-core/user';
+import builder from 'sagess-core/component/builder';
+import user from 'sagess-core/user';
 
 import intersection from 'lodash/array/intersection';
 import isArray from 'lodash/lang/isArray';
 
-import type from 'focus-core/component/types';
+import type from 'sagess-core/component/types';
 
 /**
  * Mixin button.

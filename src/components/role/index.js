@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-import user from 'focus-core/user';
+import user from 'sagess-core/user';
 import intersection from 'lodash/array/intersection';
 import isArray from 'lodash/lang/isArray';
 

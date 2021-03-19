@@ -1,7 +1,7 @@
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import type from 'focus-core/component/types';
-import { translate } from 'focus-core/translation';
+import builder from 'sagess-core/component/builder';
+import type from 'sagess-core/component/types';
+import { translate } from 'sagess-core/translation';
 import assign from 'object-assign';
 import omit from 'lodash/object/omit';
 

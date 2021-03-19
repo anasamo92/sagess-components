@@ -1,6 +1,6 @@
 import React from 'react';
-import builder from 'focus-core/component/builder';
-import types from 'focus-core/component/types';
+import builder from 'sagess-core/component/builder';
+import types from 'sagess-core/component/types';
 import { component as Button } from '../action';
 import i18nMixin from '../../i18n/mixin';
 import stylableMixin from '../../../mixin/stylable';

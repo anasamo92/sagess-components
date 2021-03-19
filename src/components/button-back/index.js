@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import Button from '../button';
-import { back as defaultBack } from 'focus-core/history';
+import { back as defaultBack } from 'sagess-core/history';
 
 const propTypes = {
     back: PropTypes.func

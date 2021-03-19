@@ -1,9 +1,9 @@
 // Libs
 import isObject from 'lodash/lang/isObject';
 // Dependencies
-import builder from 'focus-core/component/builder';
+import builder from 'sagess-core/component/builder';
 // Stores
-import applicationStore from 'focus-core/application/built-in-store';
+import applicationStore from 'sagess-core/application/built-in-store';
 // Mixins
 import stylableBehaviour from '../../mixin/stylable';
 // Components

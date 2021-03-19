@@ -1,7 +1,7 @@
 import React from 'react';
 
-import actionBuilder from 'focus-core/search/action-builder';
-import { advancedSearchStore } from 'focus-core/search/built-in-store';
+import actionBuilder from 'sagess-core/search/action-builder';
+import { advancedSearchStore } from 'sagess-core/search/built-in-store';
 
 import { component as SearchBar } from '../../../..//search/search-bar';
 import referenceBehaviour from '../../../..//common/form/mixin/reference-behaviour';

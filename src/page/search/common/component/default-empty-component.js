@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import { translate } from 'focus-core/translation';
+import { translate } from 'sagess-core/translation';
 
 function DefaultEmpty() {
     return (

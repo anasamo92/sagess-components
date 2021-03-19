@@ -1,7 +1,7 @@
 // Dependencies
 import isFunction from 'lodash/lang/isFunction';
 // Stores
-import { BuiltInSearchStore } from 'focus-core/search';
+import { BuiltInSearchStore } from 'sagess-core/search';
 
 const SearchMixin = {
     getDefaultProps() {

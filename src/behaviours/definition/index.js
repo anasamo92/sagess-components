@@ -6,17 +6,17 @@ import isArray from 'lodash/lang/isArray';
 import isString from 'lodash/lang/isString';
 import isObject from 'lodash/lang/isObject';
 
-// Import from focus-core
-// We need to investigate why import {getEntityInformations} from 'focus-core/entity/builder' didn't work, maybe an ES2015 related issue with babel.
+// Import from sagess-core
+// We need to investigate why import {getEntityInformations} from 'sagess-core/entity/builder' didn't work, maybe an ES2015 related issue with babel.
 // Maybe because the node modules reads from the builded lib  instead of src.
-import { getEntityInformations } from 'focus-core/definition/entity/builder';
+import { getEntityInformations } from 'sagess-core/definition/entity/builder';
 
 
 /**
  * This function is a behaviour. It aims to comment a component to a definition.
  *  - A definition is related to the data model
  *  - Each field of the domain have a definition which contains its domain and the fact that it is required ot not.
- *  - The definitions of your application should have been set using `focus-core/definition/entity/container/setEntityConfiguration`
+ *  - The definitions of your application should have been set using `sagess-core/definition/entity/container/setEntityConfiguration`
  * @param  {string | array} definitionPath - A string or an array of the definition path to the configuration.
  * @param  {object} additionalDefinition - If you need to override a definition for a specific component, you can use this object.
  * @return {function} - A function to commect a component to a definition.
