@@ -175,10 +175,10 @@ Pour que le composant AdvancedSearch puisse s'adapter en fonction du scope, il e
 Ce scope est disponible par un import, voici un exemple avec des actions de tri changeant en fonction du scope :
 ```javascript
 import React, {Component, PropTypes} from 'react';
-import connect from 'focus-components/behaviours/store/connect';
+import connect from 'sagess-components/behaviours/store/connect';
 
 // web components
-import {component as AdvancedSearch} from 'focus-components/page/search/advanced-search';
+import {component as AdvancedSearch} from 'sagess-components/page/search/advanced-search';
 import {advancedSearchStore} from 'focus-core/search/built-in-store';
 
 //Autres propriétés passées au composant, qui ne changent pas en fonction du scope
@@ -267,8 +267,8 @@ Afin d'utiliser le mixin il est nécessaire de définir deux attributs et deux m
 - une liste de résultat
 
 ## Exemple
-[Exemple de advanced-search](https://github.com/KleeGroup/focus-components/blob/master/page/search/advanced-search/example/index.html)
+[Exemple de advanced-search](https://github.com/KleeGroup/sagess-components/blob/master/page/search/advanced-search/example/index.html)
 ## Test
 todo
 ## Démo
-[Démo de advanced-search](http://kleegroup.github.io/focus-components/page/search/advanced-search/example/)
+[Démo de advanced-search](http://kleegroup.github.io/sagess-components/page/search/advanced-search/example/)

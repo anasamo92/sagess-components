@@ -42,7 +42,7 @@ Affichage d'une liste par block avec la capacité de selectionner une ou plusieu
             <td><code>buttonComponent</code></td>
             <td><i>React-component</i></td>
             <td></td>
-            <td><code>FocusComponents.common.button.action</code></td>
+            <td><code>SagessComponents.common.button.action</code></td>
             <td>Définit le composant pour afficher un bouton.</td>
         </tr>
         <tr>
@@ -169,11 +169,11 @@ Evènement à définir par l'utilisateur.
 <List data={list} onLineClick={function}/>
 ```
 
-[Exemple de liste selection](https://github.com/KleeGroup/focus-components/blob/master/list/selection/example/index.html)
+[Exemple de liste selection](https://github.com/KleeGroup/sagess-components/blob/master/list/selection/example/index.html)
 ## Test
 Todo.
 ## Demo
-[Démo de table](http://kleegroup.github.io/focus-components/list/selection/example/)
+[Démo de table](http://kleegroup.github.io/sagess-components/list/selection/example/)
 
 ## Définition de la ligne d'un tableau
 Un mixin de ligne est définit dans focus afin de rendre la ligne d'une table : **Focus.components.list.selection.line.mixin**

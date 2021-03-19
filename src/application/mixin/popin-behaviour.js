@@ -6,7 +6,7 @@ import type from 'focus-core/component/types';
  */
 let PopinProperties = {
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please wrap content inside a popin instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please wrap content inside a popin instead');
     },
     /** @inheritdoc */
     getDefaultProps() {

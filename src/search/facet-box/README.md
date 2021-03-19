@@ -71,8 +71,8 @@ React.render(
 ```
 
 ## Exemple
-[Exemple de facet-box](https://github.com/KleeGroup/focus-components/blob/master/search/facet-box/example/index.html)
+[Exemple de facet-box](https://github.com/KleeGroup/sagess-components/blob/master/search/facet-box/example/index.html)
 ## Test
 todo
 ## Démo
-[Démo de facet-box]](http://kleegroup.github.io/focus-components/search/facet-box/example/)
+[Démo de facet-box]](http://kleegroup.github.io/sagess-components/search/facet-box/example/)

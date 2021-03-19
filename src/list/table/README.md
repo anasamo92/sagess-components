@@ -130,11 +130,11 @@ pas de méthodes.
 - conteneur de ligne : tr
 
 ## Exemple
-[Exemple de table](https://github.com/KleeGroup/focus-components/blob/master/list/table/example/index.html)
+[Exemple de table](https://github.com/KleeGroup/sagess-components/blob/master/list/table/example/index.html)
 ## Test
 todo
 ## Démo
-[Démo de table](http://kleegroup.github.io/focus-components/list/table/example/)
+[Démo de table](http://kleegroup.github.io/sagess-components/list/table/example/)
 
 ## Définition de la ligne d'un tableau
 Un mixin de ligne est définit dans focus afin de rendre la ligne d'une table : **Focus.components.list.table.line.mixin**

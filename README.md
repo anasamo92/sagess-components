@@ -1,7 +1,7 @@
 sagess-components
 ========================
 
-Components for focus application.
+Components for sagess application.
 
 
 ## Components

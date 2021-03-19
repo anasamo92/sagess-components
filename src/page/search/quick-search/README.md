@@ -164,8 +164,8 @@ Afin d'utiliser le mixin il est nécessaire de définir deux attributs et deux m
 - une liste de résultat
 
 ## Exemple
-[Exemple de quick-search](https://github.com/KleeGroup/focus-components/blob/master/page/search/quick-search/example/index.html)
+[Exemple de quick-search](https://github.com/KleeGroup/sagess-components/blob/master/page/search/quick-search/example/index.html)
 ## Test
 todo
 ## Démo
-[Démo de quick-search](http://kleegroup.github.io/focus-components/page/search/quick-search/example/)
+[Démo de quick-search](http://kleegroup.github.io/sagess-components/page/search/quick-search/example/)

@@ -1,4 +1,3 @@
-//Focus.reference.builder.loadListByName('papas').then(function(data){Focus.dispatcher.dispatch({action: {type: "update",data: {papas: data}}})})
 import storeGetter from 'focus-core/reference/built-in-store';
 import builtInActionReferenceLoader from 'focus-core/reference/built-in-action';
 import difference from 'lodash/array/difference';

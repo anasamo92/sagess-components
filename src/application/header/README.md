@@ -31,7 +31,7 @@ Attribute                     | Options     | Possible               | Default  
 
 ## Structure
 
-Le [schéma.pdf](https://github.com/KleeGroup/focus-components/blob/master/application/bar/schema.pdf) présent dans les sources du composant a pour but d'expliquer les éléments de la page.
+Le [schéma.pdf](https://github.com/KleeGroup/sagess-components/blob/master/application/bar/schema.pdf) présent dans les sources du composant a pour but d'expliquer les éléments de la page.
 
 
 ## Example
@@ -43,4 +43,4 @@ Le [schéma.pdf](https://github.com/KleeGroup/focus-components/blob/master/appli
 
 ## Demo
 
-[Application bar](http://kleegroup.github.io/focus-components/application/bar/example/)
+[Application bar](http://kleegroup.github.io/sagess-components/application/bar/example/)
