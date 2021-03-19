@@ -1,4 +1,4 @@
-//Generator http://patorjk.com/software/taag/#p=display&h=1&f=Banner4&t=Focus-COMPONENTS
+//Generator http://patorjk.com/software/taag/#p=display&h=1&f=Banner4&t=Sagess-COMPONENTS
 // import './style';
 import translation from 'focus-core/translation';
 import history from 'focus-core/history';
@@ -18,15 +18,15 @@ window.Backbone = {
 };
 
 /**
-* Display information data for Focus-COMPONENTS
+* Display information data for Sagess-COMPONENTS
 */
 const infosFn = function infos() {
     console.log(
         `
-        FOCUS COMPONENTS
+        SAGESS COMPONENTS
 
         version: ${infos.version}
-        focus-components: ${infos.homepage}
+        sagess-components: ${infos.homepage}
         documentation: ${infos.documentation}
         issues: ${infos.bugs.url}
         `
@@ -42,7 +42,7 @@ export default {
     * Display documentation data
     */
     DOCUMENTATION() {
-        console.log('documentation: http://kleegroup.github.io/focus-components');
+        console.log('documentation: http://kleegroup.github.io/sagess-components');
         console.log('components available');
         console.table(infos.components);
         console.log(`repository: ${infos.repository.url}`);
