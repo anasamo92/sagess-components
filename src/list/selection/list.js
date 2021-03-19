@@ -134,7 +134,7 @@ const listMixin = {
         // LEGACY CODE
         const customLineComponent = otherProps.lineComponent;
         if (customLineComponent) {
-            console.warn('%c DEPRECATED : You are using the lineComponent prop in a list component, this will be removed in the next release of Focus Components. Please use LineComponent prop instead.', 'color: #FF9C00; font-weight: bold');
+            console.warn('%c DEPRECATED : You are using the lineComponent prop in a list component, this will be removed in the next release of Sagess components. Please use LineComponent prop instead.', 'color: #FF9C00; font-weight: bold');
         }
         const FinalLineComponent = customLineComponent || Line;
         // END OF LEGACY CODE
