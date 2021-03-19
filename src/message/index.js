@@ -22,7 +22,7 @@ const messageMixin = {
         type: types('string')
     },
     componentWillMount() {
-        console.warn('FocusComponents 2.2.0: this component is deprecated, please use the message center instead instead');
+        console.warn('SagessComponents 2.2.0: this component is deprecated, please use the message center instead instead');
     },
     /** @inheritedDoc */
     componentDidMount() {
