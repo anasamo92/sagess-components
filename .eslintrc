@@ -1,0 +1,6 @@
+{
+    "extends": "focus",
+    "globals": {
+        "componentHandler": true
+    }
+}

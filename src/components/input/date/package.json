@@ -1,0 +1,14 @@
+{
+  "name": "Input date",
+  "version": "2.0.0",
+  "description": "Input date component. Uses moment.js locales, in order to handle internationalization. Works with ISOStrings only.",
+  "main": "index.js",
+  "keywords": [
+    "dumb",
+    "input",
+    "date",
+    "material"
+  ],
+  "author": "focus@kleegroup.com",
+  "license": "MIT"
+}

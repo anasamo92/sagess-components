@@ -1,0 +1,15 @@
+
+[data-focus="header-actions"] {
+    text-align: right;
+    display: flex;
+    
+    button {
+        margin: 0 5px;
+        &.mdl-button--fab {
+            background-color: #FFF !important;
+        }
+        &:hover {
+            background-color: #F9F9F9 !important;
+        }
+    }
+}

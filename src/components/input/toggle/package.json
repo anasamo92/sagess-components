@@ -1,0 +1,14 @@
+{
+  "name": "Input toggle",
+  "version": "1.0.0",
+  "description": "Input toggle component. Used to display boolean values, follows the material design specification.",
+  "keywords": [
+    "dumb",
+    "input",
+    "boolean",
+    "toggle",
+    "material"
+  ],
+  "author": "focus@kleegroup.com",
+  "license": "MIT"
+}
