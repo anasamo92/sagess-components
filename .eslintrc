@@ -1,6 +1,0 @@
-{
-    "extends": "sagess",
-    "globals": {
-        "componentHandler": true
-    }
-}
